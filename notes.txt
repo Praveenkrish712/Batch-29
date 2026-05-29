@@ -1,6 +1,6 @@
 HTML5 - Hyper Text Markup Language (<head> content </head>)
 
-Self closing tags - hr, br, meta, img
+Self closing tags - hr, br, meta, img, input,
 
 ===> It is Used to create a webpage
 ===> It is NOT a Programming Language
@@ -24,3 +24,11 @@ Self closing tags - hr, br, meta, img
 8) List - Ordered list and Unordered list
 
 9) Tables - tr, th, td
+
+10) Forms - input, label, placeholder, required, button, type(important), fieldset and legend
+
+11) Media Elements - video and audio
+
+12) Semantic tags - Header, footer, section, nav and main
+
+13) Div and Span
