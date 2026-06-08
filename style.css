@@ -22,13 +22,13 @@ h2{
     padding: 10px 0 10px 15px;
 }
 
-p{
-    /* color: green; */
+/* p{
+    color: green;
     background-image: url(./Assets/images\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+} */
 
 .One > h1{
     color: blue;
@@ -145,4 +145,80 @@ h2{
     /* gap: 60px; */
     /* flex-wrap: wrap;
     align-content: space-around; */
+}
+
+.para{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(3,300px);
+}
+
+.item{
+    background-color: green;
+    font-size: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerbox{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.items1{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: span 3;
+}
+
+.items2{
+    grid-row: span 3;
+}
+
+.layout > div{
+    border: 1px solid black;
+    font-size: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBABAC;
+    font-weight: 900;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: 
+    "z z z z"
+    "sb1 m m sb2"
+    "q q q q";
+}
+
+.header{
+    grid-area: z;
+}
+
+.sidebar1{
+    grid-area: sb1;
+}
+
+.main{
+    grid-area: m;
+}
+
+.sidebar2{
+    grid-area: sb2;
+}
+
+.footer{
+    grid-area: q;
 }
