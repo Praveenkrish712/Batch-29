@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-h1{
+/* h1{
     color: violet;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 70px;
@@ -15,7 +15,7 @@ h1{
     font-weight: bold;
     line-height: 100px;
     letter-spacing: 20px;
-}
+} */    
 
 h2{
     color: #e41ed3;
@@ -283,4 +283,109 @@ h2{
         left: 25px;
     }
     
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+input:focus{
+    border: 2px solid blue;
+    outline: none;
+}
+
+/* li:nth-child(odd){
+    color: red;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+li:nth-child(Even){
+    color: green;
+    font-size: 70px;
+    font-weight: 100;
+} */
+
+/* li:first-child{
+    color: aqua;
+}
+
+li:last-child{
+    color: chartreuse;
+} */
+
+p::first-letter{
+    font-size: 50px;
+    color: blue;
+}
+
+p::first-line{
+    font-size: 30px;
+    color: #e41ed3;
+}
+
+p::before{
+    content: "Praveen ";
+}
+
+p::after{
+    content: " Krishnan";
+}
+
+#check:checked + label{
+    color: red;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #EBABAC;
+    color: white;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+a:hover{
+    color: #ff5356;
+}
+
+svg{
+    width: 30px;
+    height: 30px;
+    fill: white;
+    display: none;
+}
+
+@media screen and (max-width:500px) {
+    nav{
+        display: none;
+    }
+
+    svg{
+        display: block;
+    }
 }

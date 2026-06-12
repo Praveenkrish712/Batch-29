@@ -162,4 +162,28 @@ animation - Whenever the website/webpage will reload or refresh some action will
 ======> animation        
 ---> Set the animation name
 ---> Set the duration
----> We can use the @keyframes to set the name and using two types to animatting, one is (From To) and another one is (25%, 50%, 75%, 100%)                        
+---> We can use the @keyframes to set the name and using two types to animatting, one is (From To) and another one is (25%, 50%, 75%, 100%)
+
+10) Pseudo Elements
+i) hover 
+ii) Focus
+iii) nth-child(2) (Odd) (Even)
+iv) first-child 
+v) last-child
+vi) First-letter
+vii) First-line
+viii) Before
+ix) After
+x) Checked
+
+11) Media Queries OR Responsive design
+===> Apply Styles based on the Device Conditions
+===> Device type (Mobile, tablet, Desktop)
+
+---> mobile - 320px to 600px
+---> tablet - 601px to 800px
+---> Lap/Desktop - Above 801px
+
+@media screen and (max-width:size) {
+    block of code
+}
